@@ -1,0 +1,11 @@
+{
+  "test": "Test",
+  "array": [
+    "Array1",
+    "Array2"
+  ],
+  "object": {
+    "string": "String",
+    "int": 1
+  }
+}
