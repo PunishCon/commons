@@ -1,0 +1,45 @@
+name: "Bug Report"
+description: "Report a bug in our software."
+body:
+  - type: checkboxes
+    attributes:
+      label: "General Troubleshooting"
+      description: "Please confirm that you have completed the following steps before submitting your bug report:"
+      options:
+        - label: "I have searched for similar issues in the bug tracker."
+          required: true
+        - label: "I have verified that I am using the latest version of the software."
+          required: true
+        - label: "I have reviewed the documentation and verified that my code is correct."
+          required: true
+  - type: textarea
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect the software to do?"
+      placeholder: "The software should..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Code Example"
+      description: "Please provide a code example that reproduces the problem."
+      placeholder: |-
+        public void run() {
+            // Your code here
+        }
+      render: java
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Software Configuration"
+      description: "Please provide the software configuration you are using."
+      placeholder: "Operating System: \nJava Version: \nOther relevant configuration information:"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Error Message or Stack Trace"
+      description: "Please provide the full error message or stack trace you received."
+      placeholder: "The error message or stack trace goes here."
+      render: java
