@@ -1,0 +1,27 @@
+{
+  "author": {
+    "iconUrl": "https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png",
+    "url": "https://google.de",
+    "text": "Author"
+  },
+  "body": {
+    "thumbnailUrl": "https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png",
+    "titleUrl": "https://google.de",
+    "title": "Title",
+    "description": "Description",
+    "imageUrl": "https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png",
+    "fields": [
+      {
+        "name": "Name",
+        "value": "Value",
+        "inline": false
+      }
+    ]
+  },
+  "footer": {
+    "iconUrl": "https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png",
+    "text": "Text",
+    "timestamp": "1.1.2020 10:00"
+  },
+  "hexColor": "#FFFFFF"
+}

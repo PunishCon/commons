@@ -29,7 +29,10 @@ repositories {
 }
 
 dependencies {
+    compileOnly("org.projectlombok:lombok:1.18.26")
+    annotationProcessor("org.projectlombok:lombok:1.18.26")
     implementation("org.jetbrains:annotations:24.0.1")
+    implementation("net.dv8tion:JDA:5.0.0-beta.9")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("commons-io:commons-io:2.11.0")
 }
